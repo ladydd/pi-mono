@@ -30,6 +30,7 @@ export type {
 	OAuthProviderInfo,
 	OAuthProviderInterface,
 } from "./utils/oauth/types.js";
+export * from "./utils/optimize-context-images.js";
 export * from "./utils/overflow.js";
 export * from "./utils/typebox-helpers.js";
 export * from "./utils/validation.js";

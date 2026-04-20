@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Added `optimizeContextImages(context, optimizer)` utility function for preprocessing `ImageContent` blocks in context messages before sending to providers. Supports user and toolResult messages, async optimizers, and preserves immutability.
+
 ## [0.67.68] - 2026-04-17
 
 ### Fixed
